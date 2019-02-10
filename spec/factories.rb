@@ -8,7 +8,7 @@ FactoryBot.define do
   end
 
   factory :gram do
-    message "hello"
+    add_attribute(:message) { "hello" }
     association :user
   end
 end
